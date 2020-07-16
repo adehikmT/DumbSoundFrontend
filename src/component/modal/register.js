@@ -20,7 +20,7 @@ const Regis = ({ loading, authRegistCreator }) => {
     // await CekUser(localStorage.token);
     setTimeout(() => {
       window.location.reload(true);
-    }, 500);
+    }, 1000);
   };
 
   const Load = (load) => {

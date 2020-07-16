@@ -33,7 +33,7 @@ export const authLoginCreator = (body) => {
       try {
         const { data: dataLog } = await API.post("/login", body);
 
-        // console.log(dataFilm);/auth/user
+        console.log(dataLog);
         localStorage.setItem("token", dataLog.data.token);
         localStorage.setItem("role", dataLog.data.role);
 

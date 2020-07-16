@@ -21,7 +21,7 @@ const Login = ({ loading, authLoginCreator }) => {
     // console.log(localStorage.token)
     setTimeout(() => {
       window.location.reload(true);
-    }, 500);
+    }, 1000);
   };
 
   const Load = (load) => {
