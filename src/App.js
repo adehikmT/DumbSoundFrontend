@@ -26,7 +26,7 @@ function App() {
           <Route path="/payment" exact>
             <RouteUser component={Payment} />
           </Route>
-          <Route path="/music" exact component={AddMusic}>
+          <Route path="/music" exact render={() => <AddMusic />}>
             {/* <RouteAdmin component={AddMusic} /> */}
           </Route>
           <Route path="/singer" exact>
