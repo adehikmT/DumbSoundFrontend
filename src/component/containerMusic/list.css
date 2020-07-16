@@ -1,0 +1,64 @@
+.musicTitle {
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 20px;
+  padding: 10px;
+  color: #ffffff;
+  padding-top: -95px;
+  margin-top: 5px;
+}
+
+.singer {
+  color: #ffffff;
+  padding-left: 10px;
+  margin-top: 5px;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.year {
+  float: right;
+}
+
+.musicCard {
+  background: #3a3a3a;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.cofl{
+  margin-left:70px;
+  margin-right: 70px;
+  padding-top: 20px;
+  margin-top: 140px;
+  background-color: #161616;
+}
+
+@media (min-width: 768px) {
+  .musicTitle {
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px;
+    color: #ffffff;
+    padding-top: -100px;
+    margin-top: -5px;
+  }
+
+  .singer {
+    color: #ffffff;
+    padding-left: 10px;
+    margin-top: -10px;
+    padding-bottom: 5px;
+    font-size: 11px;
+  }
+
+  .year {
+    float: right;
+    font-size: 11px;
+  }
+}

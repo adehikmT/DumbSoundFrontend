@@ -1,0 +1,15 @@
+.loaded {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading {
+  height: 100%;
+  display: flex;
+  margin-top: 20%;
+  justify-content: center;
+  align-items: center;
+}

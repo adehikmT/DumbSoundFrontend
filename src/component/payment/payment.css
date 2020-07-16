@@ -1,0 +1,74 @@
+.titlePay {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.desciption {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.dumb {
+  color: red;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.sound {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 13px;
+}
+
+.container {
+  margin-top: 135px;
+}
+
+@media (min-width: 768px) {
+  .titlePay {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    color: #ffffff;
+  }
+
+  .desciption {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .dumb {
+    color: red;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 19px;
+  }
+  .sound {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 19px;
+  }
+
+  .container {
+    margin-top: 100px;
+  }
+}
