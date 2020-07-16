@@ -21,23 +21,23 @@ function App() {
     <>
       <Router>
         {/* <ScrollTop> */}
-        <Switch>
-          <Route path="/" exact component={Dashboard} />
-          <Route path="/payment" exact>
-            <RouteUser component={Payment} />
-          </Route>
-          <Route path="/music" exact render={() => <AddMusic />}>
-            {/* <RouteAdmin component={AddMusic} /> */}
-          </Route>
-          <Route path="/singer" exact>
-            <RouteAdmin component={AddSinger} />
-          </Route>
-          <Route path="/transaction" exact>
-            <RouteUser component={Transaction} />
-          </Route>
-          {/* <Route path="/play" component={Play}/> */}
-          <Route path="*" exact component={NotFound}></Route>
-        </Switch>
+          <Switch>
+            <Route path="/" exact component={Dashboard} />
+            <Route path="/payment" exact>
+              <RouteUser component={Payment} />
+            </Route>
+            <Route path="/music" exact>
+              <RouteAdmin component={AddMusic} />
+            </Route>
+            <Route path="/singer" exact>
+              <RouteAdmin component={AddSinger} />
+            </Route>
+            <Route path="/transaction" exact>
+              <RouteUser component={Transaction} />
+            </Route>
+            {/* <Route path="/play" component={Play}/> */}
+            <Route path="*" exact component={NotFound}></Route>
+          </Switch>
         {/* </ScrollTop> */}
       </Router>
     </>
