@@ -23,12 +23,16 @@ function App() {
         <ScrollTop>
           <Switch>
             <Route path="/" exact component={Dashboard} />
-            <Route path="/payment" exact>
-              <RouteUser component={Payment} />
-            </Route>
-            <Route path="/music" exact>
-              <RouteAdmin component={AddMusic} />
-            </Route>
+            <Route
+              path="/payment"
+              exact
+              component={<RouteUser component={Payment} />}
+            />
+            <Route
+              path="/music"
+              exact
+              component={<RouteAdmin component={AddMusic} />}
+            />
             <Route path="/singer" exact>
               <RouteAdmin component={AddSinger} />
             </Route>
