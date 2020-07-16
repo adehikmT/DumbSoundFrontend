@@ -4,6 +4,8 @@ import Pay from "../component/payment";
 import Header from "../component/header";
 import LodBars from "../component/loader/Bars";
 
+import { connect } from "react-redux";
+
 const Payment = () => {
   document.title = "Payment";
   const [loadPage, setLoadPage] = useState(true);
@@ -25,4 +27,4 @@ const Payment = () => {
   );
 };
 
-export default Payment;
+export default connect()(Payment);

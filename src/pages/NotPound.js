@@ -1,5 +1,7 @@
 import React from "react";
 
+import { connect } from "react-redux";
+
 const Not = () => {
   return (
     <>
@@ -11,4 +13,4 @@ const Not = () => {
   );
 };
 
-export default Not;
+export default connect()(Not);

@@ -4,6 +4,8 @@ import Header from "../component/header";
 import Music from "../component/music";
 import LodBars from "../component/loader/Bars";
 
+import { connect } from "react-redux";
+
 const AddMusic = () => {
   document.title = "Music";
   const [loadPage, setLoadPage] = useState(true);
@@ -25,4 +27,4 @@ const AddMusic = () => {
   );
 };
 
-export default AddMusic;
+export default connect()(AddMusic);

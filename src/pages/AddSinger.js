@@ -4,6 +4,8 @@ import Header from "../component/header";
 import Singer from "../component/singer";
 import LodBars from "../component/loader/Bars";
 
+import { connect } from "react-redux";
+
 const AddSinger = () => {
   document.title = "Singer";
   const [loadPage, setLoadPage] = useState(true);
@@ -25,4 +27,4 @@ const AddSinger = () => {
   );
 };
 
-export default AddSinger;
+export default connect()(AddSinger);

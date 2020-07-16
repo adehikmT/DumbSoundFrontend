@@ -4,6 +4,8 @@ import TableTransaction from "../component/transaction";
 import Header from "../component/header";
 import LodBars from "../component/loader/Bars";
 
+import { connect } from "react-redux";
+
 const Transaction = () => {
   document.title = "Transaction";
   const [loadPage, setLoadPage] = useState(true);
@@ -25,4 +27,4 @@ const Transaction = () => {
   );
 };
 
-export default Transaction;
+export default connect()(Transaction);

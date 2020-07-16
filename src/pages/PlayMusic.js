@@ -7,6 +7,8 @@ import SectionList from "../component/containerMusic";
 import LodBars from "../component/loader/Bars";
 import PlayMusic from "../component/playMusic/index"
 
+import { connect } from "react-redux";
+
 const Play = () => {
   document.title = "DumbSound";
   const [loadPage, setLoadPage] = useState(true);
@@ -32,4 +34,4 @@ const Play = () => {
   );
 };
 
-export default Play;
+export default connect()(Play);
