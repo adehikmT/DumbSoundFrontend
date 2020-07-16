@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Router>
-        <ScrollTop>
+        {/* <ScrollTop> */}
           <Switch>
             <Route path="/" exact component={Dashboard} />
             <Route path="/payment" exact>
@@ -38,7 +38,7 @@ function App() {
             {/* <Route path="/play" component={Play}/> */}
             <Route path="*" exact component={NotFound}></Route>
           </Switch>
-        </ScrollTop>
+        {/* </ScrollTop> */}
       </Router>
     </>
   );
